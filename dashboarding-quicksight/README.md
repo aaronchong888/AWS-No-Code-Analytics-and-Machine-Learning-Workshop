@@ -1,11 +1,8 @@
----
-title : "Create your Business Dashboard with Amazon Quicksight"
-weight : 40
----
+# Create your Business Dashboard with Amazon Quicksight
 
 ![](/static/shared/amazon-quicksight-logo.png)
 
-::alert[Make sure you have performed the steps described in the **"Train a Machine Learning model and generate accurate predictions with Amazon SageMaker Canvas"** section before beginning this lab.]{type=warning}
+> Make sure you have performed the steps described in the **"Train a Machine Learning model and generate accurate predictions with Amazon SageMaker Canvas"** section before beginning this lab.
 
 ## Agenda
 
@@ -337,3 +334,9 @@ As the model evolves and we generate new data from the business, we might need t
 ![](/static/quicksight/dashboard.png)
 
 We have just updated an Amazon QuickSight dashboard with the most recent predictions from Amazon SageMaker Canvas. 
+
+-----
+
+Congratulations\!\! You have successfully completed **Dashboarding with Amazon Quicksight**. Now, you may proceed to clean up the lab resources:
+
+5. [Resources clean-up](../cleanup/)
