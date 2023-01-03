@@ -1,9 +1,6 @@
----
-title : "Resources clean-up"
-weight : 50
----
+# Resources Clean-up
 
-::alert[In order to avoid future charges, especially if running in your own account, please follow the steps below to clean resources created during the workshop.]{type=warning}
+> In order to avoid future charges, especially if running in your own account, please follow the steps below to clean resources created during the workshop.
 
 ## AWS Glue DataBrew - cleanup
 
