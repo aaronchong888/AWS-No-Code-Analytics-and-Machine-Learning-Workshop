@@ -145,4 +145,4 @@ If the AWS Account has been provisioned by your AWS Instructor, follow the next 
 
 Congratulations\!\! You have successfully completed the Prerequisites. Now, you may proceed to the next lab:
 
-2. [ETL with Glue DataBrew](./etl-glue-databrew/)
+2. [ETL with Glue DataBrew](../../etl-glue-databrew/)

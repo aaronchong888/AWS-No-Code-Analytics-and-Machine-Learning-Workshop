@@ -1,9 +1,6 @@
----
-title : "Extract, Transform and Load data with AWS Glue DataBrew"
-weight : 20
----
+# Extract, Transform and Load data with AWS Glue DataBrew
 
-::alert[Make sure you have downloaded the dataset and performed the steps described in the **"Prerequisites"** section before beginning this lab.]{type=warning}
+> Make sure you have downloaded the dataset and performed the steps described in the **"Prerequisites"** section before beginning this lab.
 
 ## Agenda
 
@@ -193,12 +190,8 @@ You will get the data linegae for the dataset.
 
 ![](/static/databrew/data-lineage-2.png)
 
+-----
 
+Congratulations\!\! You have successfully completed **ETL with Glue DataBrew**. Now, you may proceed to the next lab:
 
-
-
-
-
-
-
-
+3. [Model training with SageMaker Canvas](../ml-sagemaker-canvas/)
