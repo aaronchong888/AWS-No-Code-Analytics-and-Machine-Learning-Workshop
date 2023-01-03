@@ -83,7 +83,7 @@ If the AWS Account has been provisioned by your AWS Instructor, follow the next 
 
 1.  Open AWS console and switch to AWS region communicated by your instructor.
 
-::alert[Ireland is depicted on the image below but you can choose other region as well wherever SageMaker Canvas is available. The right region must be communicated by your instructor.]{type=warning}
+> Ireland is depicted on the image below but you can choose other region as well wherever SageMaker Canvas is available. The right region must be communicated by your instructor.
 
 You can find the list of the AWS regions that support SageMaker Canvas [here](https://docs.aws.amazon.com/sagemaker/latest/dg/canvas.html).
 
@@ -117,7 +117,7 @@ If the AWS Account has been provisioned by your AWS Instructor, follow the next 
 
 1.  Open AWS console and switch to AWS region communicated by your instructor.
 
-::alert[Ireland is depicted on the image below but you can choose other region as well wherever QuickSight is available. The right region must be communicated by your instructor.]{type=warning}
+> Ireland is depicted on the image below but you can choose other region as well wherever QuickSight is available. The right region must be communicated by your instructor.
 
 ![](/static/prerequisites/image22.png)
 

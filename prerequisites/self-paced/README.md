@@ -45,7 +45,7 @@ using Quick Setup:
 
 1.  Open AWS console and switch to AWS region you would like to use.
 
-::alert[**Ireland** is depicted on the image below but you can choose other region as well wherever [SageMaker Canvas is available.](https://docs.aws.amazon.com/sagemaker/latest/dg/canvas.html).]
+> **Ireland** is depicted on the image below but you can choose other region as well wherever [SageMaker Canvas is available.](https://docs.aws.amazon.com/sagemaker/latest/dg/canvas.html).
 
 ![](/static/prerequisites/image22.png)
 
@@ -103,7 +103,7 @@ If the AWS Account has been provisioned by your AWS Instructor, follow the next 
 
 1.  Open AWS console and switch to AWS region communicated by your instructor.
 
-::alert[Ireland is depicted on the image below but you can choose other region as well wherever QuickSight is available. The right region must be communicated by your instructor.]{type=warning}
+> Ireland is depicted on the image below but you can choose other region as well wherever QuickSight is available. The right region must be communicated by your instructor.
 
 ![](/static/prerequisites/image22.png)
 
