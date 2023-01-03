@@ -1,13 +1,10 @@
----
-title: "AWS - No-code analytics and Machine Learning for business analysts"
-weight: 0
----
+# AWS - No-code Analytics and Machine Learning Workshop
 
 Business users that want to do analytics and machine learning do not need to start learning a coding class: Amazon Web Services provides no-code tools and technology to allow for data preparation, model training, and data visualization - without writing a single line of code. In this workshop, we will go through the workflow of a business analysts, from applying ETL to data, to training and analyzing the model, to visualizing prediction in a BI dashboard.
 
 ## Overview
 
-In this lab, we assume the role of a marketing analyst in the marketing department of a mobile phone operator. We have been tasked with identifying customers that are potentially at risk of churning. We have access to service usage and other customer behavior data, and want to know if this data can help explain why a customer would leave. If we can identify factors that explain churn, then we can take corrective actions to change predicted behavior, such as running targeted retention campaigns. e.t.c. 
+In this lab, we assume the role of a marketing analyst in the marketing department of a mobile phone operator. We have been tasked with identifying customers that are potentially at risk of churning. We have access to service usage and other customer behavior data, and want to know if this data can help explain why a customer would leave. If we can identify factors that explain churn, then we can take corrective actions to change predicted behavior, such as running targeted retention campaigns, etc.
 
 ## Architecture
 
@@ -15,7 +12,9 @@ In this lab, we assume the role of a marketing analyst in the marketing departme
 
 ## Dataset
 
-For our dataset, we use a synthetic dataset from a telecommunications mobile phone carrier. You can download it :link[here]{href="https://sagemaker-sample-files.s3.amazonaws.com/datasets/tabular/synthetic/churn.csv" action=download}. This sample dataset contains 5,000 records, where each record uses 21 attributes to describe the customer profile. The attributes are as follows:
+For our dataset, we use a synthetic dataset from a telecommunications mobile phone carrier. You can download it: [here](https://sagemaker-sample-files.s3.amazonaws.com/datasets/tabular/synthetic/churn.csv).
+
+This sample dataset contains 5,000 records, where each record uses 21 attributes to describe the customer profile. The attributes are as follows:
 
 | Field      | Description |
 | ----------- | ----------- |
