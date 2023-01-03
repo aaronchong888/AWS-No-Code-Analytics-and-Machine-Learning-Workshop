@@ -1,11 +1,8 @@
----
-title : "Train a Machine Learning model and generate accurate predictions with Amazon SageMaker Canvas"
-weight : 30
----
+# Train a Machine Learning model and generate accurate predictions with Amazon SageMaker Canvas
 
 ![canvas](/static/shared/canvas-logo.png)
 
-::alert[Make sure you have performed the steps described in the **"Extract, Transform and Load data with AWS Glue DataBrew"** section before beginning this lab.]{type=warning}
+> Make sure you have performed the steps described in the **"Extract, Transform and Load data with AWS Glue DataBrew"** section before beginning this lab.
 
 ## Agenda
 
@@ -82,7 +79,7 @@ Canvas offers two build options:
 
 Now, we wait anywhere from 2 to 15 minutes. Since the dataset is small, this will take probably even less than 2 minutes. 
 
-::alert[Don\'t worry if the numbers in the below images differ from yours. Machine Learning introduces some stochasticity in the process of training models, which can lead to different results to different builds.]{type=warning}
+> Don\'t worry if the numbers in the below images differ from yours. Machine Learning introduces some stochasticity in the process of training models, which can lead to different results to different builds.
 
 When the model building process is complete, the model predicted churn **95.9%** of the time. This seems fine, but as analysts we want to dive deeper and see if we can trust the model to make decisions based on it. Let's focus on the first tab, **Overview**. This is the tab that shows us the **Column impact**, or the estimated importance of each column in predicting the target column. In this example, the `Night Calls` column has the most significant impact in predicting if a customer will churn. This information can help the marketing team gain insights that lead to taking actions to reduce customer churn.
 
@@ -140,4 +137,10 @@ You can also choose to predict one by one values, by selecting **Single predicti
 
 ![](/static/canvas/singleprediction.png)
 
-::alert[If you wish to augment data in real-time in Amazon Quicksight, you will need [to integrate the SageMaker model to your Quicksight dataset](https://docs.aws.amazon.com/quicksight/latest/user/sagemaker-integration.html#sagemaker-using). This requires you to: train a standard build model; share it via Amazon SageMaker Studio; deploy the model to a real-time endpoint. Please collaborate with a data scientist or ML Engineer to use this capability. Learn how to do so [here](https://aws.amazon.com/blogs/machine-learning/build-share-deploy-how-business-analysts-and-data-scientists-achieve-faster-time-to-market-using-no-code-ml-and-amazon-sagemaker-canvas/). Since training a standard build model could take around 1-2 hours, we will avoid doing so in this workshop.]{type=warning}
+> If you wish to augment data in real-time in Amazon Quicksight, you will need [to integrate the SageMaker model to your Quicksight dataset](https://docs.aws.amazon.com/quicksight/latest/user/sagemaker-integration.html#sagemaker-using). This requires you to: train a standard build model; share it via Amazon SageMaker Studio; deploy the model to a real-time endpoint. Please collaborate with a data scientist or ML Engineer to use this capability. Learn how to do so [here](https://aws.amazon.com/blogs/machine-learning/build-share-deploy-how-business-analysts-and-data-scientists-achieve-faster-time-to-market-using-no-code-ml-and-amazon-sagemaker-canvas/). Since training a standard build model could take around 1-2 hours, we will avoid doing so in this workshop.
+
+-----
+
+Congratulations\!\! You have successfully completed **Model training with SageMaker Canvas**. Now, you may proceed to the next lab:
+
+4. [Dashboarding with Amazon Quicksight](../dashboarding-quicksight/)
