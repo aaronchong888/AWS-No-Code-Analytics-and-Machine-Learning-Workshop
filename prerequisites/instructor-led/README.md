@@ -1,9 +1,6 @@
----
-title : "AWS Instructor-Led Lab"
-weight : 11
----
+# AWS Instructor-Led Lab
 
-::alert[Follow the instructions given by the workshop administrators on how to log in to the AWS account provided for this workshop. Do NOT use your personal or business account to run this workshop, as the required pre-built resources will not be available.]{type=warning}
+> Follow the instructions given by the workshop administrators on how to log in to the AWS account provided for this workshop. Do NOT use your personal or business account to run this workshop, as the required pre-built resources will not be available.
 
 - [Download Dataset](#download-dataset)
 - [Event Engine AWS Account access](#event-engine-aws-account-access)
@@ -12,7 +9,9 @@ weight : 11
 
 ## Download Dataset
 
-For our dataset, we use a synthetic dataset from a telecommunications mobile phone carrier. You can download it :link[here]{href="https://sagemaker-sample-files.s3.amazonaws.com/datasets/tabular/synthetic/churn.csv" action=download}. This sample dataset contains 5,000 records, where each record uses 21 attributes to describe the customer profile. The attributes are as follows:
+For our dataset, we use a synthetic dataset from a telecommunications mobile phone carrier. You can download it: [here](https://sagemaker-sample-files.s3.amazonaws.com/datasets/tabular/synthetic/churn.csv).
+
+This sample dataset contains 5,000 records, where each record uses 21 attributes to describe the customer profile. The attributes are as follows:
 
 | Field      | Description |
 | ----------- | ----------- |

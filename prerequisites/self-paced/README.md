@@ -1,12 +1,8 @@
----
-title : "Self-Paced Lab"
-weight : 11
----
+# Self-Paced Lab
 
-::alert[If you have already performed the instructions mentioned on the previous page "Option 1. AWS Instructor-Led Lab, you DON'T need to execute these step."]{type=warning}
+> If you have already performed the instructions mentioned on the previous page "Option 1. AWS Instructor-Led Lab, you **DON'T** need to execute these step.
 
-::alert[You need to use your own AWS Account to perform the next steps. This may incur some charges.]{type=warning}
-
+> You need to use your own AWS Account to perform the next steps. This may incur some charges.
 
 - [Download Dataset](#download-dataset)
 - [Launch Amazon SageMaker Canvas](#launch-amazon-sagemaker-canvas)
@@ -14,7 +10,9 @@ weight : 11
 
 ## Download Dataset
 
-For our dataset, we use a synthetic dataset from a telecommunications mobile phone carrier. You can download it :link[here]{href="https://sagemaker-sample-files.s3.amazonaws.com/datasets/tabular/synthetic/churn.csv" action=download}. This sample dataset contains 5,000 records, where each record uses 21 attributes to describe the customer profile. The attributes are as follows:
+For our dataset, we use a synthetic dataset from a telecommunications mobile phone carrier. You can download it: [here](https://sagemaker-sample-files.s3.amazonaws.com/datasets/tabular/synthetic/churn.csv).
+
+This sample dataset contains 5,000 records, where each record uses 21 attributes to describe the customer profile. The attributes are as follows:
 
 | Field      | Description |
 | ----------- | ----------- |

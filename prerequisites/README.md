@@ -1,7 +1,4 @@
----
-title : "Prerequisites"
-weight : 10
----
+# Prerequisites
 
 You have two options to follow the lab:
 
